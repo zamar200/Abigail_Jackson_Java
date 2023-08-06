@@ -71,7 +71,7 @@ public class CustomerRepositoryTest {
         customer2.setState("FL");
         customer2.setPostalCode("33101");
         customer2.setCountry("USA");
-       repo.save(customer2);
+        repo.save(customer2);
 
 
         List<Customer> customerList = repo.findAll();
